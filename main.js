@@ -15,11 +15,16 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
+const num2String = (num) => {
+  return num.toString();
+}
 
 
 
 // Write a JavaScript program to convert a string to the number.
-
+const string2Num = (str) => {
+  return Number(str);
+}
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
@@ -30,14 +35,19 @@ const displayDate = () => {
   // * NaN
   // * String
   
+  // 1. Write a function that takes a datatype
+  // 2. return the type of that variable - using that typeof operator
+
 
   
 // Write a JavaScript program that adds 2 numbers together.
-
+const add = (num1, num2) => {
+  return num1 + num2
+}
 
 
 // Write a JavaScript program that runs only when 2 things are true.
-
+const 
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
