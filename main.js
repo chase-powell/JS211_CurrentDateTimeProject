@@ -37,7 +37,8 @@ const string2Num = (str) => {
   
   // 1. Write a function that takes a datatype
   // 2. return the type of that variable - using that typeof operator
-
+const highFive = true;
+typeof highFive
 
   
 // Write a JavaScript program that adds 2 numbers together.
@@ -47,14 +48,29 @@ const add = (num1, num2) => {
 
 
 // Write a JavaScript program that runs only when 2 things are true.
-const 
-
-
+if (age >= 18 && age <= 60) {
+  return true
+}
 // Write a JavaScript program that runs when 1 of 2 things are true.
-
+if (angry = mad ) {
+  return true
+} else {
+  return false
+}
 
 
 // Write a JavaScript program that runs when both things are not true.  
+
+const hour = 15;
+
+if (hour = 12) {
+  return true
+} else if (hour < 12) {
+  return true
+} else {
+  return false
+}
+
 
 // ***************************
 //         PART TWO
