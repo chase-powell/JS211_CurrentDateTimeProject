@@ -37,9 +37,11 @@ const string2Num = (str) => {
   
   // 1. Write a function that takes a datatype
   // 2. return the type of that variable - using that typeof operator
-const highFive = true;
-typeof highFive
+const highFive = (x) => {
+  return typeof x 
+}
 
+console.log(highFive(5))
   
 // Write a JavaScript program that adds 2 numbers together.
 const add = (num1, num2) => {
@@ -48,28 +50,38 @@ const add = (num1, num2) => {
 
 
 // Write a JavaScript program that runs only when 2 things are true.
-if (age >= 18 && age <= 60) {
-  return true
+const age = (x) => {
+  if (x >= 18 && x <= 60) {
+    console.log('*****you are the right age*****')
+  }
 }
-// Write a JavaScript program that runs when 1 of 2 things are true.
-if (angry = mad ) {
-  return true
-} else {
-  return false
-}
+console.log(age(32))
 
+// Write a JavaScript program that runs when 1 of 2 things are true.
+const different = (x) => {
+  if (x === 'happy' || x === 'cheerful' ) {
+    console.log('***Having a good day!***')
+  } else {
+    console.log('***Cheer up!***')
+  }
+  
+}
+console.log(different('happy'))
 
 // Write a JavaScript program that runs when both things are not true.  
 
-const hour = 15;
+const hour = (x) => {
 
-if (hour = 12) {
-  return true
-} else if (hour < 12) {
-  return true
-} else {
-  return false
+  if (x === 12 && x < 12 ) {
+    console.log('***Good morning!***')
+  } else {
+    console.log('***Good afternoon!***')
+  }
+
 }
+console.log(hour(15))
+
+
 
 
 // ***************************
